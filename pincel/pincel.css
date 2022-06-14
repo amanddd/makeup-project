@@ -1,0 +1,218 @@
+.ac_box { width: 1000px; border: 2px solid #FF6699;color:#FF6699;  border-bottom: none; margin-left: 2px; height: 7px;
+}
+main .service-description {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+header {
+  font: 6px;
+}
+
+nav{ 
+font-size: 40px;
+display: flex;
+flex-flow:wrap;
+text-align: center;
+justify-content: space-around;
+padding-bottom: 20px;
+border: 1px solid #FF6699;
+background-color: black;
+margin: auto; 
+border-radius: 5px;
+flex-basis: calc(100% / 2);
+
+}
+h1{ font-family: 'IBM Plex Sans', sans-serif;
+color: #FF6699;
+display: block;
+font-size: 64px;
+text-align: center;
+}
+
+p{font-family: 'IBM Plex Sans', sans-serif;
+color:black;
+font-size: 48px;
+text-align: justify;}
+
+a,a:visited{
+  text-decoration: none;
+  color: #FF6699;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+header{
+  background-image: url(../images/fundopincel-05.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(100% / 2);
+}
+
+main{
+  background-color: white;
+  padding: 15px;
+  display: block;
+  flex-flow: wrap;
+  text-align: center;
+}
+
+main .producer{
+  flex-basis: calc(100% / 2);
+}
+
+main .producer h2{
+  color: #FF6699;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 30px;
+  display: flex;
+  text-align: justify;
+  width: 60px;
+  height: 40px;
+}
+
+@media all and (min-width: 320px) {
+  main .service {
+    flex-basis: 50%;
+  }
+}
+
+main .producer p {
+  color:black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.75;
+  display: flex;
+  padding: 20px 10% 30px;
+  list-style: none;
+  margin: 30;
+  text-align: center;
+}
+
+main .producer-introduction {
+  font-family:'IBM Plex Sans', sans-serif;
+  text-align: justify;
+  flex-basis: 100%;
+}
+
+main .producer-introduction  h2 {
+  color: #FF6699;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+main .producer-introduction  p {
+  color: black;
+  font-style: 'IBM Plex Sans', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(216, 168, 184, 0.671);
+  background-position: 100% 5px;
+}
+
+footer .footerc h1 {
+  color: #FF6699;
+  font-size: 15px;
+}
+
+footer .footerc p {
+  color: black;
+  font-style: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+}
+
+footer .footerc {
+  text-align: center;
+  display: flex;
+  padding: 10px 15% 20px;
+}
+
+footer .footerc > section {
+  flex-basis: calc(100% / 2);
+}
+
+footer .adress {
+text-align: left;
+}
+
+footer section.adress ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer section.adress a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+footer section.adress a:hover {
+  color: #fff;
+  background-color: rgba(216, 168, 184, 0.671);
+}
+
+footer .about {
+text-align: left;
+}
+
+footer section.social ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer section.social a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+footer section.social a:hover {
+  color: #fff;
+  background-color: rgba(216, 168, 184, 0.671);
+}
+
+footer section.copyright {
+  padding: 15px;
+  text-align: center;
+  color: rgba(90, 32, 56, 0.815);
+  background-color:rgba(216, 168, 184, 0.671);
+}
+
+footer .fontt {
+  font-size: 15px;
+  text-align: justify;
+}
+
+footer section.pagamento ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
